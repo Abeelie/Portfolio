@@ -1,0 +1,29 @@
+.pf-container {
+    height: 20%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.pf-container-p {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+}
+
+.pf-container img{
+    max-width: 100%;
+    height: 150px;
+}
+
+@media only screen and (max-width: 1110px) {
+    .pf-container-p {
+        display: flex;
+        align-items: flex-ends;
+    }
+    .pf-container img{
+        max-width: 100%;
+        height: 100px;
+    }
+}

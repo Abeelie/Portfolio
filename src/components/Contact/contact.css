@@ -1,0 +1,25 @@
+.contact-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: fit-content;
+    /* margin: 50px; */
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.contact-card {
+    box-shadow: 0 0px 20px -2px #1f2235;
+}
+
+
+.form-card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.recaptcha {
+    margin-bottom: 30px;
+}
+
