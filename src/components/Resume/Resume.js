@@ -29,7 +29,7 @@ const Resume = (props) => {
                         <Card.Img variant="top" src={AIStudy} className="Card-Img"/>
                         <Card.Body>
                             <Card.Title style={{textAlign: "center"}} className="card-title">AI Study</Card.Title>
-                                <Card.Text>
+                                <Card.Text className="card-text">
                                     AI-Study is a platform dedicated to providing students with the tools 
                                     they need to have efficient study sessions. Technologies used are 
                                     <span className="technologies"> React JS, Node JS, Rest API, PostgreSQL, 
@@ -46,12 +46,12 @@ const Resume = (props) => {
                         <Card.Img variant="top" src={WWEImage} className="Card-Img"/>
                         <Card.Body>
                             <Card.Title style={{textAlign: "center"}} className="card-title">WWE vs. AEW</Card.Title>
-                                <Card.Text>
+                                <Card.Text className="card-text">
                                     The goal of this website was to obtain the ratings data between WWE NXT and 
                                     AEW Dynamite tv shows and which show performed better. 
                                     Technologies used are <span className="technologies">Python, 
                                     Flask, Rest API, PostgreSQL, HTML, and CSS.</span> 
-                            </Card.Text>
+                                </Card.Text>
                         </Card.Body>
                         <Card.Body style={{textAlign: "center"}}>
                             <Card.Link href=" https://www.wwe-vs-aew.com">Click here for website</Card.Link>
@@ -66,11 +66,11 @@ const Resume = (props) => {
                         <Card.Img variant="top" src={MusicImage} className="Card-Img"/>
                         <Card.Body>
                             <Card.Title style={{textAlign: "center"}} className="card-title">Music History</Card.Title>
-                                <Card.Text>
-                                Music History is a site dedicated to providing the public information on the
-                                history of music. Ranging from the different types of genres, artists and songs.
-                                Technologies used are <span className="technologies">Node JS, HTML, CSS, and API's.</span>
-                            </Card.Text>
+                                <Card.Text className="card-text">
+                                    Music History is a site dedicated to providing the public information on the
+                                    history of music. Ranging from the different types of genres, artists and songs.
+                                    Technologies used are <span className="technologies">Node JS, HTML, CSS, and API's.</span>
+                                </Card.Text>
                         </Card.Body>
                         <Card.Body style={{textAlign: "center"}}>
                             <Card.Link href="https://music-history101.herokuapp.com">Click here for website</Card.Link>
@@ -82,12 +82,12 @@ const Resume = (props) => {
                         <Card.Img variant="top" src={BooksImage} className="Card-Img"/>
                         <Card.Body>
                             <Card.Title style={{textAlign: "center"}} className="card-title">Good Books</Card.Title>
-                                <Card.Text>
+                                <Card.Text className="card-text">
                                     Good Books is a site that provides you with free tools that 
                                     help you find books or discover new ones. The site offers book searching tools and 
                                     book recommendations. Technologies used are <span className="technologies">
                                     Node JS, HTML, CSS, and API's.</span>
-                            </Card.Text>
+                                </Card.Text>
                         </Card.Body>
   
                         <Card.Body style={{textAlign: "center"}}>
@@ -103,11 +103,11 @@ const Resume = (props) => {
                         <Card.Img variant="top" src={Meme} className="Card-Img"/>
                         <Card.Body>
                             <Card.Title style={{textAlign: "center"}} className="card-title">Meme Central</Card.Title>
-                                <Card.Text>
-                                Meme Central is a web app that shows real time financial data on meme
-                                stocks and meme crypto. Technologies used are <span className="technologies">
-                                Python, Flask, HTML, CSS, JavaScript, JQuery, and API's.</span>
-                            </Card.Text>
+                                <Card.Text className="card-text">
+                                    Meme Central is a web app that shows real time financial data on meme
+                                    stocks and meme crypto. Technologies used are <span className="technologies">
+                                    Python, Flask, HTML, CSS, JavaScript, JQuery, and API's.</span>
+                                </Card.Text>
                         </Card.Body>
   
                         <Card.Body style={{textAlign: "center"}}>
@@ -120,11 +120,11 @@ const Resume = (props) => {
                         <Card.Img variant="top" src={JoblyImage} className="Card-Img"/>
                         <Card.Body>
                             <Card.Title style={{textAlign: "center"}} className="card-title">Jobly</Card.Title>
-                                <Card.Text>
+                                <Card.Text className="card-text">
                                     Jobly is a demo site where a user can search for companies, search for jobs and
                                     apply to jobs. Technologies used are <span className="technologies">
                                     React JS, Node JS, Rest API, PostgreSQL, HTML, and CSS. </span>
-                            </Card.Text>
+                                </Card.Text>
                         </Card.Body>
                         <Card.Body style={{textAlign: "center"}}>
                             <Card.Link href="http://habitual-honey.surge.sh">Click here for website</Card.Link>
