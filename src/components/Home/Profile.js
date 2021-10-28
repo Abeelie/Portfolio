@@ -47,7 +47,7 @@ const Profile = () => {
                         </span>
                     </div>
                     <div className="profile-options">
-                        <button className="btn primary-btn" onClick={() => switchScreen("Contacts")}>
+                        <button className="btn primary-btn" onClick={() => switchScreen("Contact")}>
                             Hire Me
                         </button>
                         {/* <a href="AbrahamElie.pdf" download="resume.pdf">
