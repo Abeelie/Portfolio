@@ -4,8 +4,8 @@ import "./profile.css";
 
 const Profile = () => {
 
-    const switchScreen = (index, screen) => {
-        const screenComponent = document.getElementById("Contact");
+    const switchScreen = (screen) => {
+        const screenComponent = document.getElementById(screen);
         if(!screenComponent) return;
         screenComponent.scrollIntoView({behavior: 'smooth'});
     }

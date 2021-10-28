@@ -12,6 +12,13 @@ const About = (props) => {
 
     const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler)
     
+    const switchScreen = (screen) => {
+        const screenComponent = document.getElementById(screen);
+        if(!screenComponent) return;
+        screenComponent.scrollIntoView({behavior: 'smooth'});
+    }
+
+
     const SCREEN_CONSTANTS = {
         description: `My name is Abraham Elie. I have a degree in business administration 
                       and have a desire to code. I like creating new projects`,
@@ -51,14 +58,12 @@ const About = (props) => {
                         </div>
                         {renderData}
                     <div className="about-me-options">
-                        <button className="btn primary-btn">
+                        <button className="btn primary-btn" onClick={() => switchScreen("Resume")}>
                             More
                         </button>
-                        <a href="ehizcv.pdf" download="resume.pdf">
-                            <button className="btn highlighted-btn">
-                                Get Resume
-                            </button>
-                        </a>
+                        <button className="btn highlighted-btn" onClick={() => switchScreen("Contact")}>
+                            Hire Me
+                        </button>
                         </div>
                        </div>
                     </div>

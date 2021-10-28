@@ -78,12 +78,14 @@
     }
     .header-option-seperator {
         margin: 0;
+        margin-bottom: 30px;
     }
     .selected-header-option {
         color: white;
     }
     .header-option {
         color: white;
+        font-size: 20px;
     }
     .header-hamburger-bars {
         font-size: 30px;

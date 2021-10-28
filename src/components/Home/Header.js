@@ -37,7 +37,7 @@ const Header = () => {
         <div key={screen.screen_name} 
              className={getHeaderOptionsClass(index)} 
              onClick={() => switchScreen(index, screen)}>
-            <span className="space">{screen.screen_name}</span>
+            <span>{screen.screen_name}</span>
         </div>
      ))
 
