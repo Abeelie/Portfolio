@@ -50,11 +50,6 @@ const Profile = () => {
                         <button className="btn primary-btn" onClick={() => switchScreen("Contact")}>
                             Hire Me
                         </button>
-                        {/* <a href="AbrahamElie.pdf" download="resume.pdf">
-                            <button className="btn highlighted-btn">
-                                Get Resume
-                            </button>
-                        </a> */}
                     </div>
                 </div>
                 <div className="profile-picture">

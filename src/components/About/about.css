@@ -15,7 +15,6 @@
     display: flex;
     width: 100%;
     box-shadow: 0 0px 20px -2px #1f2235;
-    /* height: 700px; */
 }
 
 .about-me-profile {
@@ -28,7 +27,6 @@
 
 .about-me-details {
     width: 50%;
-    /* text-align: justify; */
     padding: 30px;
 }
 
@@ -41,7 +39,6 @@
 }
 
 .highlight-heading {
-    font-family: "Poppins Bold";
     font-size: 15px;
     margin: 0 0 5px 0;
 }

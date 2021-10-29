@@ -124,7 +124,7 @@ const Contact = (props) => {
                         />
                     </Form.Group>
                     <div align="center" className="recaptcha">
-                        {document.readyState === "complete" ? <ReCAPTCHA ref={recaptchaRef} sitekey={recaptchaKey} onChange={handleChangeToken}/> : "Loading.............."}
+                        <ReCAPTCHA ref={recaptchaRef} sitekey={recaptchaKey} onChange={handleChangeToken}/> 
                     </div>
                     <div align="center">
                         <button className="btn highlighted-btn">
