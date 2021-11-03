@@ -21,7 +21,7 @@ const About = (props) => {
 
     const SCREEN_CONSTANTS = {
         description: `My name is Abraham Elie. I have a degree in business administration 
-                      and have a desire to code. I like creating new projects`,
+                      and have a desire to code. I like creating new projects.`,
         highlights: {
             heading: "Here are my highlights",
             bullets: [
