@@ -42,7 +42,7 @@ const Profile = () => {
                                 />
                             </h1>
                             <span className="profile-role-tagline">
-                                A strong desire for building unique and innovative web and mobile applications.
+                                I have experience building unique and innovative web and mobile applications.
                             </span>
                         </span>
                     </div>
