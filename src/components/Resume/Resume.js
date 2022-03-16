@@ -10,6 +10,7 @@ import MusicImage from "../../assets/Resume/Music.jpg";
 import BooksImage from "../../assets/Resume/Books.png";
 import Meme from "../../assets/Resume/Meme.jpg";
 import JoblyImage from "../../assets/Resume/Jobly.png";
+import BibleImage from "../../assets/Resume/Bible.png";
 
 
 const Resume = (props) => {
@@ -83,7 +84,7 @@ const Resume = (props) => {
                         <Card.Body>
                             <Card.Title style={{textAlign: "center"}} className="card-title">Good Books</Card.Title>
                                 <Card.Text className="card-text">
-                                    Good Books is a site that provides you with free tools that 
+                                    Good Books provides free tools that 
                                     help you find books or discover new ones. The site offers book searching tools and 
                                     book recommendations. Technologies used are <span className="technologies">
                                     Node JS, HTML, CSS, and API's.</span>
@@ -104,7 +105,7 @@ const Resume = (props) => {
                         <Card.Body>
                             <Card.Title style={{textAlign: "center"}} className="card-title">Meme Central</Card.Title>
                                 <Card.Text className="card-text">
-                                    Meme Central is a web app that shows real time financial data on meme
+                                    Meme Central shows real time financial data on meme
                                     stocks and meme crypto. Technologies used are <span className="technologies">
                                     Python, Flask, HTML, CSS, JavaScript, JQuery, and API's.</span>
                                 </Card.Text>
@@ -128,6 +129,26 @@ const Resume = (props) => {
                         </Card.Body>
                         <Card.Body style={{textAlign: "center"}}>
                             <Card.Link href="http://habitual-honey.surge.sh">Click here for website</Card.Link>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+                </Row>
+                <br/>
+                <Row>
+                <Col sm={12} md={6}>
+                    <Card style={{ width: '18rem', margin: "0 auto" }} className="card-effects">
+                        <Card.Img variant="top" src={BibleImage} className="Card-Img"/>
+                        <Card.Body>
+                            <Card.Title style={{textAlign: "center"}} className="card-title">Multilingual Bible API</Card.Title>
+                                <Card.Text className="card-text">
+                                    I created and published a multilingual bible API that has translations for
+                                    English, French, Spanish, and Chinese. The API can be found on Rapid API. 
+                                    Technologies used are <span className="technologies">
+                                    Node JS, Express JS, MongoDB, Mongoose, and Express Rate Limiter. </span>
+                                </Card.Text>
+                        </Card.Body>
+                        <Card.Body style={{textAlign: "center"}}>
+                            <Card.Link href="https://rapidapi.com/abrahaelill-GRIsGuS-TSY/api/multilingual-bible/">Click here for website</Card.Link>
                         </Card.Body>
                     </Card>
                     </Col>
