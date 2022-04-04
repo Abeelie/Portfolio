@@ -11,6 +11,7 @@ import BooksImage from "../../assets/Resume/Books.png";
 import Meme from "../../assets/Resume/Meme.jpg";
 import JoblyImage from "../../assets/Resume/Jobly.png";
 import BibleImage from "../../assets/Resume/Bible.png";
+import LottoImage from "../../assets/Resume/lotto.png"
 
 
 const Resume = (props) => {
@@ -149,6 +150,24 @@ const Resume = (props) => {
                         </Card.Body>
                         <Card.Body style={{textAlign: "center"}}>
                             <Card.Link href="https://rapidapi.com/abrahaelill-GRIsGuS-TSY/api/multilingual-bible/">Click here for website</Card.Link>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+
+                <Col sm={12} md={6}>
+                    <Card style={{ width: '18rem', margin: "0 auto" }} className="card-effects">
+                        <Card.Img variant="top" src={LottoImage} className="Card-Img"/>
+                        <Card.Body>
+                            <Card.Title style={{textAlign: "center"}} className="card-title">Powerball and Mega Millions API</Card.Title>
+                                <Card.Text className="card-text">
+                                    I created and published a Powerball and Mega Millions API. The API gets statistical data on the 
+                                    Powerball and Mega Millions lottery data such as likelihood of a winning set. The API can be found 
+                                    on Rapid API. Technologies used are <span className="technologies">
+                                    Node JS, Express JS, MongoDB, Mongoose, Cheerio, Cron jobs and Express Rate Limiter. </span>
+                                </Card.Text>
+                        </Card.Body>
+                        <Card.Body style={{textAlign: "center"}}>
+                            <Card.Link href="https://rapidapi.com/abrahaelill-GRIsGuS-TSY/api/powerball-and-mega-millions/">Click here for website</Card.Link>
                         </Card.Body>
                     </Card>
                     </Col>
