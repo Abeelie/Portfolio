@@ -158,7 +158,7 @@ const Resume = (props) => {
                     <Card style={{ width: '18rem', margin: "0 auto" }} className="card-effects">
                         <Card.Img variant="top" src={LottoImage} className="Card-Img"/>
                         <Card.Body>
-                            <Card.Title style={{textAlign: "center"}} className="card-title">Powerball and Mega Millions API</Card.Title>
+                            <Card.Title style={{textAlign: "center"}} className="card-title">Lotto API</Card.Title>
                                 <Card.Text className="card-text">
                                     I published a Powerball and Mega Millions API. The API gets statistical data on the 
                                     Powerball and Mega Millions lottery data. The API can be found 
