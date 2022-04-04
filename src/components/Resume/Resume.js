@@ -160,8 +160,8 @@ const Resume = (props) => {
                         <Card.Body>
                             <Card.Title style={{textAlign: "center"}} className="card-title">Powerball and Mega Millions API</Card.Title>
                                 <Card.Text className="card-text">
-                                    I created and published a Powerball and Mega Millions API. The API gets statistical data on the 
-                                    Powerball and Mega Millions lottery data such as likelihood of a winning set. The API can be found 
+                                    I published a Powerball and Mega Millions API. The API gets statistical data on the 
+                                    Powerball and Mega Millions lottery data. The API can be found 
                                     on Rapid API. Technologies used are <span className="technologies">
                                     Node JS, Express JS, MongoDB, Mongoose, Cheerio, Cron jobs and Express Rate Limiter. </span>
                                 </Card.Text>
