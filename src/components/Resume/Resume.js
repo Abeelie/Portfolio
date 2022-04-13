@@ -11,7 +11,8 @@ import BooksImage from "../../assets/Resume/Books.png";
 import Meme from "../../assets/Resume/Meme.jpg";
 import JoblyImage from "../../assets/Resume/Jobly.png";
 import BibleImage from "../../assets/Resume/Bible.png";
-import LottoImage from "../../assets/Resume/lotto.png"
+import LottoImage from "../../assets/Resume/lotto.png";
+import MathImage from "../../assets/Resume/Math.jpg";
 
 
 const Resume = (props) => {
@@ -171,6 +172,24 @@ const Resume = (props) => {
                         </Card.Body>
                     </Card>
                     </Col>
+                </Row>
+                <Row>
+                <Col sm={12} md={6}>
+                    <Card style={{ width: '18rem', margin: "0 auto" }} className="card-effects">
+                        <Card.Img variant="top" src={MathImage} className="Card-Img"/>
+                        <Card.Body>
+                            <Card.Title style={{textAlign: "center"}} className="card-title">Math API</Card.Title>
+                                <Card.Text className="card-text">
+                                    I created and published a Math API that be used to solve arithmetic, 
+                                    geometry, number theory, statistics and fractions problems. Technologies used are <span className="technologies">
+                                    Node JS, Express JS, Node Cron jobs and Express Rate Limiter. </span>
+                                </Card.Text>
+                        </Card.Body>
+                        <Card.Body style={{textAlign: "center"}}>
+                            <Card.Link href="https://rapidapi.com/abrahaelill-GRIsGuS-TSY/api/math7/">Click here for website</Card.Link>
+                        </Card.Body>
+                    </Card>
+                  </Col>
                 </Row>
             </Container>
         </div>
