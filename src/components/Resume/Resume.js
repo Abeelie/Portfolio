@@ -198,10 +198,9 @@ const Resume = (props) => {
                         <Card.Body>
                             <Card.Title style={{textAlign: "center"}} className="card-title">Guitar Chords API</Card.Title>
                                 <Card.Text className="card-text">
-                                    I created and published a Guitar Chords API. This API allows the user to get
-                                    the finger position of every single guitar chord. 
-                                    Technologies used are <span className="technologies">
-                                    Node JS, Express JS, Mongoose, MongoDB, Swagger JS, Node Cron jobs and Express Rate Limiter. </span>
+                                    I created and published a Guitar Chords API that allows the user to get
+                                    the finger position of every guitar chord. Technologies used are <span className="technologies">
+                                    Node JS, Express JS, Mongoose, MongoDB, Swagger JS, and Express Rate Limiter. </span>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Body style={{textAlign: "center"}}>
