@@ -13,6 +13,7 @@ import JoblyImage from "../../assets/Resume/Jobly.png";
 import BibleImage from "../../assets/Resume/Bible.png";
 import LottoImage from "../../assets/Resume/lotto.png";
 import MathImage from "../../assets/Resume/Math.jpg";
+import GuitarImage from "../../assets/Resume/Guitar.png";
 
 
 const Resume = (props) => {
@@ -187,6 +188,24 @@ const Resume = (props) => {
                         </Card.Body>
                         <Card.Body style={{textAlign: "center"}}>
                             <Card.Link href="https://rapidapi.com/abrahaelill-GRIsGuS-TSY/api/math7/">Click here for website</Card.Link>
+                        </Card.Body>
+                    </Card>
+                  </Col>
+
+                  <Col sm={12} md={6}>
+                    <Card style={{ width: '18rem', margin: "0 auto" }} className="card-effects">
+                        <Card.Img variant="top" src={GuitarImage} className="Card-Img"/>
+                        <Card.Body>
+                            <Card.Title style={{textAlign: "center"}} className="card-title">Guitar Chords API</Card.Title>
+                                <Card.Text className="card-text">
+                                    I created and published a Guitar Chords API. This API allows the user to get
+                                    the finger position of every single guitar chord and access popular chord progressions. 
+                                    Technologies used are <span className="technologies">
+                                    Node JS, Express JS, Mongoose, MongoDB, Swagger JS, Node Cron jobs and Express Rate Limiter. </span>
+                                </Card.Text>
+                        </Card.Body>
+                        <Card.Body style={{textAlign: "center"}}>
+                            <Card.Link href="https://rapidapi.com/abrahaelill-GRIsGuS-TSY/api/guitar-chords">Click here for website</Card.Link>
                         </Card.Body>
                     </Card>
                   </Col>
