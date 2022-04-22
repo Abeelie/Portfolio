@@ -185,7 +185,7 @@ const Resume = (props) => {
                             <Card.Title style={{textAlign: "center"}} className="card-title">Math API</Card.Title>
                                 <Card.Text className="card-text">
                                     I created and published a Math API that can be used to solve arithmetic, 
-                                    geometry, number theory, statistics and fractions problems. Technologies used are <span className="technologies">
+                                    geometry, number theory, statistics, fractions problems and much more. Technologies used are <span className="technologies">
                                     Node JS, Express JS, Node Cron jobs and Express Rate Limiter. </span>
                                 </Card.Text>
                         </Card.Body>
