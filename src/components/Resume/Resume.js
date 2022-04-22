@@ -174,6 +174,9 @@ const Resume = (props) => {
                     </Card>
                     </Col>
                 </Row>
+
+                <br/>
+
                 <Row>
                 <Col sm={12} md={6}>
                     <Card style={{ width: '18rem', margin: "0 auto" }} className="card-effects">
@@ -198,7 +201,7 @@ const Resume = (props) => {
                         <Card.Body>
                             <Card.Title style={{textAlign: "center"}} className="card-title">Guitar Chords API</Card.Title>
                                 <Card.Text className="card-text">
-                                    I created and published a Guitar Chords API that allows the user to get
+                                    I created and published a Guitar Chords API where a user can get
                                     the finger position of every guitar chord. Technologies used are <span className="technologies">
                                     Node JS, Express JS, Mongoose, MongoDB, Swagger JS, and Express Rate Limiter. </span>
                                 </Card.Text>
